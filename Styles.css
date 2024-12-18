@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* Header Section */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0056F4; /* Blue text */
+}
+
+.logo .highlight {
+    color: #0056F4;
+}
+
+.donate-button {
+    background-color: #E00A20; /* Red */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.donate-button:hover {
+    background-color: #d10018; /* Slightly darker red */
+}
+
+/* Main Section */
+.hero {
+    background-color: #0C1734; /* Dark blue background */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: bold;
+}
